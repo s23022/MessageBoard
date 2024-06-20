@@ -27,6 +27,7 @@ dependencies {
     implementation("org.springframework.session:spring-session-data-redis")
     runtimeOnly("redis.clients:jedis")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json")
+    implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json")
     runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
