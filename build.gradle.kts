@@ -1,3 +1,4 @@
+import org.gradle.internal.impldep.org.apache.sshd.sftp.common.extensions.VersionsParser
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -19,7 +20,7 @@ java {
 repositories {
     mavenCentral()
 }
-
+val exposedVersion: String by project
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-security")
@@ -29,6 +30,9 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json")
     implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.jetbrains.exposed:exposed-spring-boot-starter:$exposedVersion")
+    implementation("org.jetbrains.exposed:exposed-kotlin-datetime:$exposedVersion")
+    implementation("org.jetbrains.exposed:exposed-kotlin-datetime")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json")
     runtimeOnly("org.mariadb.jdbc:mariadb-java-client")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
@@ -41,6 +45,7 @@ kotlin {
         jvmTarget = JvmTarget.JVM_21
     }
 }
+
 
 tasks.withType<Test> {
     useJUnitPlatform()
