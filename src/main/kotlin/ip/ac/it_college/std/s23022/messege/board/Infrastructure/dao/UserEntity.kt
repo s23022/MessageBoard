@@ -9,6 +9,6 @@ class UserEntity(id: EntityID<Long>) : LongEntity(id) {
 
     var email by UserTable.email
     var password by UserTable.password
-    var name by UserTable.view_name
+    var name by UserTable.name
     var roleType by UserTable.roleType
 }

@@ -1,4 +1,4 @@
-package ip.ac.it_college.std.s23022.messege.board.Presentation.Handler
+package ip.ac.it_college.std.s23022.messege.board.presentation.handler
 
 import jakarta.servlet.http.HttpServletRequest
 import jakarta.servlet.http.HttpServletResponse

@@ -1,7 +1,7 @@
-package ip.ac.it_college.std.s23022.messege.board.Infrastructure.RepositoryImpl
+package ip.ac.it_college.std.s23022.messege.board.Infrastructure.repositoryImpl
 
-import ip.ac.it_college.std.s23022.messege.board.Domain.Model.User
-import ip.ac.it_college.std.s23022.messege.board.Domain.Repository.UserRepository
+import ip.ac.it_college.std.s23022.messege.board.domain.model.User
+import ip.ac.it_college.std.s23022.messege.board.domain.repository.UserRepository
 import ip.ac.it_college.std.s23022.messege.board.Infrastructure.dao.UserEntity
 import ip.ac.it_college.std.s23022.messege.board.Infrastructure.dao.UserTable
 import org.jetbrains.exposed.sql.transactions.transaction

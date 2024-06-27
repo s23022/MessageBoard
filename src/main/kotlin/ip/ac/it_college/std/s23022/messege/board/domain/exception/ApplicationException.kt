@@ -1,4 +1,4 @@
-package ip.ac.it_college.std.s23022.messege.board.Domain.exception
+package ip.ac.it_college.std.s23022.messege.board.domain.exception
 
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.ResponseStatus

@@ -1,8 +1,8 @@
-package ip.ac.it_college.std.s23022.messege.board.ApplicationService.Security
+package ip.ac.it_college.std.s23022.messege.board.applicationService.security
 
-import ip.ac.it_college.std.s23022.messege.board.ApplicationService.AuthenticationService
-import ip.ac.it_college.std.s23022.messege.board.Domain.Model.User
-import ip.ac.it_college.std.s23022.messege.board.Domain.Types.RoleType
+import ip.ac.it_college.std.s23022.messege.board.applicationService.AuthenticationService
+import ip.ac.it_college.std.s23022.messege.board.domain.model.User
+import ip.ac.it_college.std.s23022.messege.board.domain.types.RoleType
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.authority.AuthorityUtils
 import org.springframework.security.core.userdetails.UserDetails

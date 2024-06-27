@@ -1,10 +1,10 @@
-package ip.ac.it_college.std.s23022.messege.board.Presentation.Config
+package ip.ac.it_college.std.s23022.messege.board.presentation.config
 
 
-import ip.ac.it_college.std.s23022.messege.board.ApplicationService.Security.BookManagerUserDetailsService
-import ip.ac.it_college.std.s23022.messege.board.ApplicationService.AuthenticationService
-import ip.ac.it_college.std.s23022.messege.board.Domain.Types.RoleType
-import ip.ac.it_college.std.s23022.messege.board.Presentation.Handler.SecurityHandler
+import ip.ac.it_college.std.s23022.messege.board.applicationService.security.BookManagerUserDetailsService
+import ip.ac.it_college.std.s23022.messege.board.applicationService.AuthenticationService
+import ip.ac.it_college.std.s23022.messege.board.domain.types.RoleType
+import ip.ac.it_college.std.s23022.messege.board.presentation.handler.SecurityHandler
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.core.annotation.Order

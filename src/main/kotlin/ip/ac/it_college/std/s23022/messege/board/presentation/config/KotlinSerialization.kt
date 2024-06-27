@@ -1,4 +1,4 @@
-package ip.ac.it_college.std.s23022.messege.board.Presentation.Config
+package ip.ac.it_college.std.s23022.messege.board.presentation.config
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
